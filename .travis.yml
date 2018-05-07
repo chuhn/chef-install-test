@@ -19,4 +19,5 @@ rvm:
   - 2.0
   - 1.9
 
-script: chef-client --version
+script:
+  - bundle exec chef-client --version
